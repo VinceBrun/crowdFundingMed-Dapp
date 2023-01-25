@@ -122,7 +122,7 @@ const CampaignDetails = () => {
               <CustomButton 
                 btnType="button"
                 title="Fund Campaign"
-                styles="w-full bg-gradient-to-r from-red-600 to-orange-300"
+                styles="w-full bg-[#dc2626]"
                 handleClick={handleDonate}
               />
             </div>
