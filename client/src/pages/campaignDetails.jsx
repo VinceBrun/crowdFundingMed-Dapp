@@ -87,7 +87,7 @@ const CampaignDetails = () => {
               <div className="mt-[20px] flex flex-col gap-4">
                 {donators.length > 0 ? donators.map((item, index) => (
                   <div key={`${item.donator}-${index}`} className="flex justify-between items-center gap-4">
-                    <p className="font-epilogue font-normal text-[16px] text-[#dc2626] leading-[26px] break-ll">{index + 1}. {item.donator}</p>
+                    <p className="font-epilogue font-normal text-[16px] text-[#fdba74] leading-[26px] break-ll">{index + 1}. {item.donator}</p>
                     <p className="font-epilogue font-normal text-[16px] text-[#fdba74] leading-[26px] break-ll">{item.donation}</p>
                   </div>
                 )) : (
@@ -109,7 +109,7 @@ const CampaignDetails = () => {
                 type="number"
                 placeholder="ETH 0.5"
                 step="0.01"
-                className="w-full py-[10px] sm:px-[20px] px-[15px] outline-none border-[1px] border-[#fdba74] bg-transparent font-epilogue text-white text-[18px] leading-[30px] placeholder:text-[#fdba74] rounded-[10px]"
+                className="w-full py-[10px] sm:px-[20px] px-[15px] outline-none border-[1px] border-[#fdba74] bg-transparent font-epilogue text-white text-[18px] leading-[30px] placeholder:text-[#dc2626] rounded-[10px]"
                 value={amount}
                 onChange={(e) => setAmount(e.target.value)}
               />
