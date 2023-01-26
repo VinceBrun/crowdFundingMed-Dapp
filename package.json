@@ -1,0 +1,27 @@
+{
+  "name": "crowdfundingmed-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-build": "cd client && npm run build",
+    "web3-build":"cd web3 && npm run build",
+    "build": "npm run client-build && npm run web3-build",
+    "client-deploy": "cd client && npm run deploy",
+    "web3-deploy": "cd web3 && npm run deploy",
+    "deploy":"npm run client-deploy && npm run web3-deploy",
+    "start": "npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinceBrun/crowdFundingMed-Dapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinceBrun/crowdFundingMed-Dapp/issues"
+  },
+  "homepage": "https://github.com/VinceBrun/crowdFundingMed-Dapp#readme"
+}
