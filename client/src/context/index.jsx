@@ -12,7 +12,7 @@ export const StateContextProvider = ({ children }) => {
 
   const address = useAddress();
   const connect = useMetamask();
-console.log(address)
+  
   const publishCampaign = async (form) => {
     try {
       const data = await createCampaign([
