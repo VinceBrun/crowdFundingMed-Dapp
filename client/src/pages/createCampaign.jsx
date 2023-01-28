@@ -26,9 +26,10 @@ const CreateCampaign = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     checkIfImage(form.image, async (exists) => {
       if(exists) {
+        console.log("pass")
         setIsLoading(true)
         await createCampaign({ ...form, target: ethers.utils.parseUnits(form.target, 18)})
         setIsLoading(false);
