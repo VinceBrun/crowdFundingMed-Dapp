@@ -10,8 +10,6 @@
   },
   "dependencies": {
     "@thirdweb-dev/contracts": "^3",
-    "dotenv": "^16.0.3",
-    "os-tmpdir": "^2.0.0",
-    "thirdweb": "^0.9.10"
+    "dotenv": "^16.0.3"
   }
 }
